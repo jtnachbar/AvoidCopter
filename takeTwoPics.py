@@ -18,11 +18,11 @@ pauseTime = int(sys.argv[2] if sys.argv[2] else 5)
 for i in range(1, numCycles):
   _, img1 = cam1.read()
   _, img2 = cam2.read()
-  time = str(datetime.now().time())
-  path = '/home/odroid/images/' + time
+  timestamp = str(datetime.now().time())
+  path = '/home/odroid/images/' + timestamp
   cv2.imwrite(path+'-1.png', img1)
   cv2.imwrite(path+'-2.png', img2)
-  print("Saved file pair %d at %s" % (i, time))
+  print("Saved file pair %d at %s" % (i, timestamp))
   time.sleep(pauseTime)
 
 # If we don't release the cameras, bad things could happen
