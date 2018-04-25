@@ -3,7 +3,7 @@ In order to generate training data for any decision making models,
 we created a script to take pictures using the fisheye cameras
 mounted to the front of the drone.
 
-[The script to take pictures](../takeTwoPics.py) is located in this repo.
+[The script to take pictures](../../take_two_pics.py) is located in this repo.
 For more information on how it works, view the file itself.
 
 ### Running the picture taking script on start up
@@ -13,7 +13,7 @@ Follow these steps in a terminal on the Odroid:
 1. run `crontab -e`
 2. A text editor will appear. Add a line to the end of the file:
 ```bash
-@reboot python /home/odroid/avoidcopter/takeTwoPics.py 2> /home/odroid/image_error.log`
+@reboot python /home/odroid/avoidcopter/take_two_pics.py 2> /home/odroid/image_error.log`
 ```
 
 If your local AvoidCopter repo is stored in a different path, you should point to that one instead.
@@ -23,5 +23,5 @@ The purpose of the `2> /home/odroid/image_error.log` is to be able to see any er
 By default, the script will take a 100 pairs of pictures with a 5 second pause in between each pair.
 You can customize this by running the script with command line arguments, like so:
 ```bash
-@reboot python /home/odroid/avoidcopter/takeTwoPics.py 200 1 # 200 pairs with 1 second pauses 
+@reboot python /home/odroid/avoidcopter/take_two_pics.py 200 1 # 200 pairs with 1 second pauses 
 ```
