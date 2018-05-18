@@ -2,7 +2,7 @@
 > Creating an autonomous quadcopter with machine learning.
 
 This repository contains code and documentation for a quadcopter.
-It is intended to provide an future [CHS Sigma lab](http://wiki.chssigma.com/index.php?title=Main_Page)
+It is intended to provide a future [CHS Sigma lab](http://wiki.chssigma.com/index.php?title=Main_Page)
 student with resources for making a quadcopter-based project. 
 See also [our wiki](http://wiki.chssigma.com/index.php?title=Avoidcopter).
 
@@ -16,7 +16,7 @@ See also [our wiki](http://wiki.chssigma.com/index.php?title=Avoidcopter).
 
 ## Background
 
-In fall of 2016, Jamie Nachbar, Stephen Newman, and Jonah Weissman started working on
+In the fall of 2016, Jamie Nachbar, Stephen Newman, and Jonah Weissman started working on
 the 2016 Technology & Robotics challenge of the Department of Education's
 [SLIC](http://www.doe.virginia.gov/instruction/project-based-learning/slic/index.shtml).
 The goal was to make a UAV that could autonomously navigate an obstacle course using
