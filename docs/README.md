@@ -6,6 +6,7 @@ It is intended to provide a future [CHS Sigma lab](http://wiki.chssigma.com/inde
 student with resources for making a quadcopter-based project. 
 See also [our wiki](http://wiki.chssigma.com/index.php?title=Avoidcopter).
 
+![The quadcopter](http://wiki.chssigma.com/images/d/d5/Avoidcopter5.JPG)
 ## Table of Contents
 
 - [Background](#background)
