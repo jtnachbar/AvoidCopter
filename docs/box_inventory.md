@@ -1,3 +1,6 @@
+> A list of everything we received in a box of quadcopter parts from Simeon Fitch.
+  Most of it is still in the box in the back of the lab.
+
 - Frame with motors propellers and some sort of circuit board
 - Frame with motors
 - 3 x transmitter/receiver type things
